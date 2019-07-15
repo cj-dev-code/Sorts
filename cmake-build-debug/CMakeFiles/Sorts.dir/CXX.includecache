@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/joseph/Desktop/Python/Sorts/BubbleSort/BubbleSort.cpp
+iostream
+-
+array
+-
+vector
+-
+fstream
+-
+
+/Users/joseph/Desktop/Python/Sorts/BubbleSort/CSVReader.cpp
+CSVReader.h
+/Users/joseph/Desktop/Python/Sorts/BubbleSort/CSVReader.h
+
+/Users/joseph/Desktop/Python/Sorts/BubbleSort/CSVReader.h
+
