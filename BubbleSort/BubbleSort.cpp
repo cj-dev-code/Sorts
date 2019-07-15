@@ -15,7 +15,7 @@ static void BubbleSort(vector<int> &data){
     // Loop data.size() - 1 times
     for (int start = 0; start < data.size() - 1; start++){
         // The greatest element is always at the back after each iteration
-        // move through the list from front to back, moving big elements to the front of the list
+        // move through the list from front to back, moving big elements to the back of the list
         for (int target = 0; target < data.size() - 1 - start; target++){
             // Swap if a big element is before a little element
             if (data[target] > data[target+1]){
